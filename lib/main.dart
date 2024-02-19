@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:koc_httpdemo/HttpDemo.dart';
 
 import 'ModalSheetDemo.dart';
+import 'PhotoDemoHttp.dart';
 import 'WebViewDemo.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget{
 
       debugShowCheckedModeBanner: false,
        title: "My title",
-      home: WebViewApp()
+      home: HomePage()
     );
   }
 
